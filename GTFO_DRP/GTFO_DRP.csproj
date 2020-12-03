@@ -1,0 +1,284 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Lib" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Addons-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Addons-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="AlienFXManagedWrapper3.5, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\AlienFXManagedWrapper3.5.dll</HintPath>
+      </Reference>
+      <Reference Include="AssetPrefabs-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\AssetPrefabs-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="Assets-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Assets-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="BepInEx.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\BepInEx.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="BepInEx.Harmony, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\BepInEx.Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="BepInEx.IL2CPP, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\BepInEx.IL2CPP.dll</HintPath>
+      </Reference>
+      <Reference Include="BepInEx.Preloader.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\BepInEx.Preloader.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="CellSound-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\CellSound-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="CommandSystem, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\CommandSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="DevConsoleCommands-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\DevConsoleCommands-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="DevConsoloe-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\DevConsoloe-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="Dissonance-integrations-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Dissonance-integrations-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="DissonanceVoip, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\DissonanceVoip.dll</HintPath>
+      </Reference>
+      <Reference Include="DropServerSDK-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\DropServerSDK-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="ExcludeInBuild-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\ExcludeInBuild-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="FluffyUnderware.DevTools, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\FluffyUnderware.DevTools.dll</HintPath>
+      </Reference>
+      <Reference Include="GameData-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\GameData-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="GlobalFramework-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\GlobalFramework-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="GUIX-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\GUIX-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="Iced, Version=1.6.0.0, Culture=neutral, PublicKeyToken=5baba79f4264913b">
+        <HintPath>Lib\Iced.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMono.Security, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Il2CppMono.Security.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2Cppmscorlib, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Il2Cppmscorlib.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Il2CppSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Configuration, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Il2CppSystem.Configuration.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Core, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Il2CppSystem.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Net.Http, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Il2CppSystem.Net.Http.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Runtime.Serialization, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Il2CppSystem.Runtime.Serialization.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Xml, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Il2CppSystem.Xml.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Xml.Linq, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Il2CppSystem.Xml.Linq.dll</HintPath>
+      </Reference>
+      <Reference Include="LibTessDotNet, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\LibTessDotNet.dll</HintPath>
+      </Reference>
+      <Reference Include="Modules-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Modules-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="Newtonsoft.Json, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+      </Reference>
+      <Reference Include="PlayFab-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\PlayFab-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="Plugins-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Plugins-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="Prototype, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Prototype.dll</HintPath>
+      </Reference>
+      <Reference Include="Prototypes_ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Prototypes_ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="Resources-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Resources-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="RootMotion-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\RootMotion-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="Scenes-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Scenes-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="Shards-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Shards-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="SNet_ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\SNet_ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="StandardAssets-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\StandardAssets-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="SteamWorks_ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\SteamWorks_ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="ToolBuddy.Curvy, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\ToolBuddy.Curvy.dll</HintPath>
+      </Reference>
+      <Reference Include="ToolBuddy.Curvy.Examples, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\ToolBuddy.Curvy.Examples.dll</HintPath>
+      </Reference>
+      <Reference Include="UnhollowerBaseLib, Version=0.4.9.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnhollowerBaseLib.dll</HintPath>
+      </Reference>
+      <Reference Include="UnhollowerRuntimeLib, Version=0.4.9.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnhollowerRuntimeLib.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.TextMeshPro, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Unity.TextMeshPro.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AIModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.AIModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AndroidJNIModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.AndroidJNIModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AnimationModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.AnimationModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AssetBundleModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.AssetBundleModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AudioModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.AudioModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.ClothModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.ClothModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CrashReportingModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.CrashReportingModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.DirectorModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.DirectorModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.GridModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.GridModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.ImageConversionModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.ImageConversionModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.IMGUIModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.IMGUIModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.InputLegacyModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.InputLegacyModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.InputModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.InputModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.ParticleSystemModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.ParticleSystemModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.PerformanceReportingModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.Physics2DModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.Physics2DModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.PhysicsModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.PhysicsModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.ScreenCaptureModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.SharedInternalsModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.SharedInternalsModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.SpriteMaskModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.SpriteMaskModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.SubsystemsModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.SubsystemsModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.TerrainModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.TerrainModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.TextCoreModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.TextCoreModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.TextRenderingModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.TextRenderingModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.TilemapModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.TilemapModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UI, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.UI.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UIElementsModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.UIElementsModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UIModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.UIModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UnityAnalyticsModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UnityWebRequestModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UnityWebRequestWWWModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.VFXModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.VFXModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.VideoModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.VideoModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.VRModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.VRModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.XRModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityEngine.XRModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityFileDebug-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\UnityFileDebug-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="Utils-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Utils-ASM.dll</HintPath>
+      </Reference>
+      <Reference Include="Wwise-ASM, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Lib\Wwise-ASM.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
